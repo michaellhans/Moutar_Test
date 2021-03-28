@@ -150,5 +150,6 @@ footer {
 .message {
   background-color: black;
   color: white;
+  min-width: 200px;
   width: 15%;
 }
