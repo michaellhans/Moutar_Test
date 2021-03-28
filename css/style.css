@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 5px 12px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav a {
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: gray;
+}
+
+.cover-page {
+  background: url('../assets/images/Cover.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 750px;
+}
+
+.footer-page {
+  margin-top: 20px;
+  background: url('../assets/images/CoverEnd.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 750px;
+}
+
+#projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.project-title {
+  width: 100%;
+}
+
+.project-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  flex: 20%;
+  height: 250px;
+  background-color: #f1f1f1;
+  margin: 20px;
+}
+
+.project-name {
+  position: absolute;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.project-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border: solid 1px black;
+}
+
+.about-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 20%;
+  background-color: white;
+  padding: 20px;
+}
+
+.card-image {
+  height: 250px;
+  margin-bottom: 18px;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border: solid 1px black;
+}
+
+.card-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+.card-title {
+  font-size: 16px;
+  color: gray;
+  margin-bottom: 16px;
+}
+
+.card-button {
+  margin: 10px 0px;
+  width: 100%;
+  padding: 16px;
+  font-size: 18px;
+  background-color: lightgray;
+  border: 1px solid white;
+}
+
+footer {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.body-page {
+  padding: 20px;
+}
+
+.textbox {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.message {
+  background-color: black;
+  color: white;
+  width: 15%;
+}
